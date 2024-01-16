@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+}
+main {
+  display: block;
+  justify-content: center;
+  width: 1000px;
+  background-color: darkgrey;
+  min-height: 100vh;
+}
+#restart {
+  margin: 10px;
+  max-height: 40px;
+  width: 100px;
+  background-color: rgb(63, 63, 239);
+  color: white;
+  font-size: 20px;
+  border-radius: 45px 45px;
+}
+#restart:hover {
+  background-color: rgb(50, 36, 146);
+}
+#panel {
+  display: flex;
+  justify-content: center;
+  height: 8%;
+}
+#plansza {
+  display: block;
+  justify-content: center;
+  height: 80%;
+  background-color: grey;
+}
+#haslo {
+  display: flex;
+  justify-content: space-evenly;
+  height: 60px;
+  background-color: grey;
+}
+.haslo {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  background-color: rgb(211, 231, 250);
+  width: 45px;
+  height: 45px;
+  border-radius: 15px;
+  border: 3px black solid;
+}
+#strzaly {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  display: flex;
+  height: 100px;
+  background-color: grey;
+}
+.strzal {
+  border-radius: 10px 10px;
+  padding: 15px;
+  width: 20px;
+  margin: 20px;
+  text-align: center;
+  max-height: 20px;
+  font-size: 22px;
+  border: 3px solid black;
+  background-color: rgb(211, 231, 250);
+  text-transform: uppercase;
+}
+#proby {
+  display: block;
+  text-align: center;
+  margin: 30px;
+  font-size: 24px;
+}
+.proby {
+  color: white;
+  text-transform: uppercase;
+  margin: 30px;
+}
+.hidden {
+  display: mone;
+}
+#check {
+}
